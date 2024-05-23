@@ -19,8 +19,12 @@
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 5;
 }
 
+img.logo1 {
+    width: 70px;
+}
 .header{
     .header-content{
         height: 400px;
