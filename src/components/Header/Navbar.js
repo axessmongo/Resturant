@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
 import "./Header.scss";
-import { MdFoodBank } from "react-icons/md";
+
 import { IoMdMenu } from "react-icons/io";
 import { useSidebarContext } from '../../context/sidebarContext';
-import logo from '/Resturant/src/assets/images/logo.png'
+import logo from '../../assets/images/logo.png'
 
 const Navbar = () => {
   const { openSidebar } = useSidebarContext();
