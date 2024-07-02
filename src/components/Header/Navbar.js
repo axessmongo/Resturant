@@ -24,22 +24,30 @@ const Navbar = () => {
   })
 
   return (
-    <nav className={` bg-orange flex align-center ${scrolled ? 'scrolled' : ""}`}>
-      <div className='container w-100'>
-        <div className='navbar-content text-white'>
-          <div className='brand-and-toggler flex align-center justify-between'>
-            <Link to="/" className='navbar-brand fw-3 fs-22 flex align-center'>
-              <img src={logo} alt="logo" class="logo1" />
-          </Link>
-          <div className='navbar-btns flex align-center'>
-            <button type="button" className='navbar-show-btn text-white' onClick={() => openSidebar()}>
-              <IoMdMenu size={27} />
-            </button>
+    <>
+
+      <nav className={` bg-orange flex align-center ${scrolled ? 'scrolled' : ""}`}>
+
+        <div className='container w-100'>
+
+          <div className='navbar-content text-white'>
+            <div className='brand-and-toggler flex align-center justify-between'>
+              <Link to="/" className='navbar-brand fw-3 fs-22 flex align-center'>
+                <img src={logo} alt="logo" class="logo1" />
+              </Link>
+
+              <div className='navbar-btns flex align-center'>
+                <button type="button" className='navbar-show-btn text-white' onClick={() => openSidebar()}>
+                  <IoMdMenu size={27} />
+                </button>
+
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-    </nav >
+      </nav >
+      about us
+    </>
   )
 }
 
