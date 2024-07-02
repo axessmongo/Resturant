@@ -28,7 +28,7 @@ const CategoryList = ({ categories }) => {
           </section>
         </div>
       </div>
-      footer
+      footer page
       <p>footer section</p>
     </>
   )
