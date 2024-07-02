@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
 import "./Header.scss";
+import lifeinsu from "../../logo.png"
 
 import { IoMdMenu } from "react-icons/io";
 import { useSidebarContext } from '../../context/sidebarContext';
@@ -46,7 +47,62 @@ const Navbar = () => {
           </div>
         </div>
       </nav >
-      about us
+      <section>
+        <section className="container mt-5" id="about">
+          <div className='row'>
+            <h1 className="text-center text-danger p-2 rounded-5 mt-5 display-4">
+              𝔸𝕓𝕠𝕦𝕥
+            </h1>
+          </div>
+          <div>
+            <div
+              className=" bg-danger-subtle rounded-3"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+            >
+              <div className="row mt-5 justify-content-evenly">
+                <div className="col-md-5 ">
+                  <div className="justify-content-center d-flex">
+                    <img
+                      src={lifeinsu}
+                      className="aboutimg p-5 img-fluid "
+                      alt=""
+                      data-aos="zoom-in"
+                      data-aos-duration="1000"
+                    />
+                  </div>
+                </div>
+                <div className="col-md-6  d-flex  align-items-center">
+                  <div className="" data-aos="fade-left" data-aos-duration="1000">
+                    <h3 className="text-center">𝙱𝚁𝙸𝙴𝙵 𝙷𝙸𝚂𝚃𝙾𝚁𝚈 𝙾𝙵 𝚃𝙷𝙴 𝙲𝙾𝙼𝙿𝙰𝙽𝚈</h3>
+                    <p className=" p-3">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Mollitia repellendus officiis, optio tenetur veritatis aliquam
+                      qui est quidem! Repellat ex fuga provident itaque inventore,
+                      dicta nam repellendus aspernatur iure labore? Lorem ipsum
+                      dolor sit amet consectetur adipisicing elit. Mollitia
+                      repellendus officiis, optio tenetur veritatis aliquam qui est
+                      quidem! Repellat ex fuga provident itaque inventore, dicta nam
+                      repellendus aspernatur iure labore?
+                    </p>
+                    <p className=" p-3">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Mollitia repellendus officiis, optio tenetur veritatis aliquam
+                      qui est quidem! Repellat ex fuga provident itaque inventore,
+                      dicta nam repellendus aspernatur iure labore? Lorem ipsum
+                      dolor sit amet consectetur adipisicing elit. Mollitia
+                      repellendus officiis, optio tenetur veritatis aliquam qui est
+                      quidem! Repellat ex fuga provident itaque inventore, dicta nam
+                      repellendus aspernatur iure labore?
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </section>
     </>
   )
 }

@@ -252,3 +252,195 @@ input, textarea, select{
     }
   }
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {}
+
+.footer {
+  padding: 60px 0;
+  min-height: 100vh;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  outline: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-footer {
+  position: relative;
+  background: #1e2129;
+
+  .footer-content {
+    position: relative;
+    padding: 85px 0 80px;
+
+    &:before {
+      position: absolute;
+      content: '';
+      background: url(https://i.ibb.co/jyRLrBZ/world-map.png);
+      width: 744px;
+      height: 365px;
+      top: 50px;
+      right: 0;
+      background-size: cover;
+      background-repeat: no-repeat;
+      animation: float-bob 30s linear infinite;
+      -webkit-animation: float-bob 30s linear infinite;
+      -moz-animation: float-bob 30s linear infinite;
+      -ms-animation: float-bob 30s linear infinite;
+      -o-animation: float-bob 30s linear infinite;
+    }
+
+    .logo-widget {
+      position: relative;
+      margin-top: -5px;
+
+      .footer-social {
+        li {
+          position: relative;
+          display: inline-block;
+          margin-right: 9px;
+
+          &:last-child {
+            margin-right: 0;
+          }
+
+          a {
+            position: relative;
+            display: inline-block;
+            width: 42px;
+            height: 42px;
+            line-height: 42px;
+            background: #2e3138;
+            color: #9ea0a9;
+            text-align: center;
+            border-radius: 50%;
+
+            &:hover {
+              color: #ffffff;
+              background: #ff5e14;
+            }
+          }
+        }
+      }
+
+      .logo-box {
+        margin-bottom: 25px;
+
+        img {
+          max-width: 220px;
+        }
+      }
+
+      .text {
+        p {
+          color: #9ea0a9;
+          margin-bottom: 32px;
+        }
+      }
+    }
+
+    .footer-title {
+      position: relative;
+      font-size: 24px;
+      line-height: 35px;
+      font-family: 'Playfair Display', serif;
+      color: #ffffff;
+      font-weight: 700;
+      margin-bottom: 27px;
+    }
+
+    .service-widget {
+      .list {
+        li {
+          display: block;
+          margin-bottom: 12px;
+
+          a {
+            position: relative;
+            display: inline-block;
+            color: #9ea0a9;
+
+            &:hover {
+              color: #ff5e14;
+            }
+          }
+        }
+      }
+    }
+
+    .contact-widget {
+      margin-left: 90px;
+
+      p {
+        color: #9ea0a9;
+        margin-bottom: 15px;
+        z-index: -999;
+      }
+
+      .footer-title {
+        margin-bottom: 29px;
+      }
+    }
+  }
+}
+
+/** footer-bottom **/
+
+.footer-bottom {
+  position: relative;
+  background: #13151a;
+  padding: 25px 0 22px;
+
+  .copyright,
+  .copyright a,
+  .footer-nav li a {
+    position: relative;
+    color: #9ea0a9;
+
+    &:hover {
+      color: #ff5e14;
+    }
+  }
+
+  .footer-nav {
+    position: relative;
+    text-align: right;
+
+    li {
+      position: relative;
+      display: inline-block;
+      margin-left: 29px;
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+      &:before {
+        position: absolute;
+        content: '';
+        background: #9ea0a9;
+        width: 1px;
+        height: 14px;
+        top: 7px;
+        left: -18px;
+
+        &:first-child:before {
+          display: none;
+        }
+      }
+    }
+  }
+}
