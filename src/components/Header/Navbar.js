@@ -56,11 +56,11 @@ const Navbar = () => {
           </div>
           <div>
             <div
-              className=" bg-danger-subtle rounded-3"
+              className=" rounded-3"
               data-aos="fade-down"
               data-aos-duration="1000"
             >
-              <div className="row mt-5 justify-content-evenly">
+              <div className="row  justify-content-evenly">
                 <div className="col-md-5 ">
                   <div className="justify-content-center d-flex">
                     <img
@@ -74,27 +74,12 @@ const Navbar = () => {
                 </div>
                 <div className="col-md-6  d-flex  align-items-center">
                   <div className="" data-aos="fade-left" data-aos-duration="1000">
-                    <h3 className="text-center">𝙱𝚁𝙸𝙴𝙵 𝙷𝙸𝚂𝚃𝙾𝚁𝚈 𝙾𝙵 𝚃𝙷𝙴 𝙲𝙾𝙼𝙿𝙰𝙽𝚈</h3>
-                    <p className=" p-3">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Mollitia repellendus officiis, optio tenetur veritatis aliquam
-                      qui est quidem! Repellat ex fuga provident itaque inventore,
-                      dicta nam repellendus aspernatur iure labore? Lorem ipsum
-                      dolor sit amet consectetur adipisicing elit. Mollitia
-                      repellendus officiis, optio tenetur veritatis aliquam qui est
-                      quidem! Repellat ex fuga provident itaque inventore, dicta nam
-                      repellendus aspernatur iure labore?
+                    <h3 className="text-center">BRIEF HISTORY OF THE RESTUGANT</h3>
+                    <p className=" p-3 fs-4">
+                      Welcome to [Restaurant Name], where culinary excellence meets warm hospitality. Enjoy our authentic [Cuisine Type] dishes crafted from fresh, local ingredients in a cozy atmosphere. Whether it’s a special occasion or a casual meal, we’re here to make every dining experience unforgettable.
                     </p>
-                    <p className=" p-3">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Mollitia repellendus officiis, optio tenetur veritatis aliquam
-                      qui est quidem! Repellat ex fuga provident itaque inventore,
-                      dicta nam repellendus aspernatur iure labore? Lorem ipsum
-                      dolor sit amet consectetur adipisicing elit. Mollitia
-                      repellendus officiis, optio tenetur veritatis aliquam qui est
-                      quidem! Repellat ex fuga provident itaque inventore, dicta nam
-                      repellendus aspernatur iure labore?
-                    </p>
+                    <p className=" p-3 fs-4">Our menu features a diverse selection of [Cuisine Type] dishes, each crafted with care and attention to detail. From mouth-watering appetizers to decadent desserts, we offer something for every palate.</p>
+
                   </div>
                 </div>
               </div>

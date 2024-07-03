@@ -29,7 +29,7 @@ const CategoryList = ({ categories }) => {
           </section>
         </div>
       </div>
-      <section className='footer'>
+      <section className=''>
         <footer className="main-footer">
           <div className="container">
             <div className="footer-content">
@@ -37,24 +37,30 @@ const CategoryList = ({ categories }) => {
                 <div className="col-lg-4 col-md-6 col-sm-12 footer-column">
                   <div className="logo-widget footer-widget">
                    
-                    
-                    <ul className="footer-social text-center">
+                  <div className='text-white fs-3'>
+                        <h1 className='text-white'> Opening Hours </h1>
+                        <br />
+                        Monday - Friday: 11:00 AM - 10:00 PM <br />
+                        Saturday - Sunday: 9:00 AM - 11:00 PM
+                      </div>
+                    <ul className="footer-social text-center pt-5">
                       <li><a href="#"><FaFacebookF /></a></li>
                       <li><a href="#"><FaTwitter /></a></li>
                       <li><a href="#"><FaVimeoV /></a></li>
                       <li><a href="#"><FaGooglePlusG /></a></li>
                     </ul>
+                  
                   </div>
                 </div>
                 <div className="col-lg-3 col-md-6 col-sm-12 offset-lg-2 footer-column">
                   <div className="service-widget footer-widget text-center">
                     <div className="footer-title ">Our Services</div>
                     <ul className="list">
-                      <li><a href="#">Beef</a></li>
-                      <li><a href="#">Chicken</a></li>
-                      <li><a href="#">Miscellaneous</a></li>
-                      <li><a href="#">Seafood</a></li>
-                      <li><a href="#">Vegetarian</a></li>
+                      <li className='fs-3'><a href="#">Beef</a></li>
+                      <li className='fs-3'><a href="#">Chicken</a></li>
+                      <li className='fs-3'><a href="#">Miscellaneous</a></li>
+                      <li className='fs-3'><a href="#">Seafood</a></li>
+                      <li className='fs-3'><a href="#">Vegetarian</a></li>
                     </ul>
                   </div>
                 </div>
@@ -67,12 +73,7 @@ const CategoryList = ({ categories }) => {
                         Feel free to customize this content to better fit the specific details and branding of your restaurant.</h4>
                       <p>987654321</p>
                       <p>info@flavorfusion.live</p>
-                      <div className='text-white'>
-                        <h1 className='text-white'> Opening Hours </h1>
-                        <br />
-                        Monday - Friday: 11:00 AM - 10:00 PM <br />
-                        Saturday - Sunday: 9:00 AM - 11:00 PM
-                      </div>
+                     
                     </div>
                   </div>
                 </div>
