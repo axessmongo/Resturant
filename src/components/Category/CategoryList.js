@@ -71,7 +71,7 @@ const CategoryList = ({ categories }) => {
                       <p>Subscribe to our newsletter to receive updates on special offers, events, and new menu items.</p>
                       <h4 className='text-white'>
                         Feel free to customize this content to better fit the specific details and branding of your restaurant.</h4>
-                      <p>987654321</p>
+                      {/* <p>987654321</p> */}
                       <p>info@flavorfusion.live</p>
                      
                     </div>
