@@ -48,7 +48,7 @@ const Navbar = () => {
         </div>
       </nav >
       <section>
-        <section className="container mt-5" id="about">
+        <section className="container" id="about">
           <div className='row'>
             <h1 className="text-center text-danger p-2 rounded-5 mt-5 display-4">
               𝔸𝕓𝕠𝕦𝕥
